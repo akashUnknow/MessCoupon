@@ -1,0 +1,6 @@
+Monday|Idli, Sambar, Chutney|Rice, Dal, Veg Curry|Chapati, Paneer Butter Masala
+Tuesday|Tuesday", Breakfast|Tuesday", Breakfast|Tuesday", Breakfast
+Wednesday|Tuesday", Breakfast|Tuesday", Breakfast|Tuesday", Breakfast
+Thursday|Tuesday", Breakfast|Tuesday", Breakfast|Tuesday", Breakfast
+Friday|Tuesday", Breakfast|Tuesday", Breakfast|Tuesday", Breakfast
+Saturday|Tuesday", Breakfast|Tuesday", Breakfast|Tuesday", Breakfast

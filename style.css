@@ -1,0 +1,125 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700 */
+
+/* - Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #00b4d8;
+}
+.container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1.6rem;
+    max-width: 120rem;
+    margin: auto;
+    padding: 9.6rem;
+    align-items: center;
+    height: 75vh;
+    
+}
+
+.name-section{
+   
+    padding: 2.4rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.name-section label{
+    color: #333;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.name-section select {
+    background-color: #00b4d8;
+    color: white;
+    padding: 0.8rem;
+    width: 20rem;
+    border: none;
+    font-size: 1.2rem;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+.img-section{
+    background-color: #00b4d8;
+    color: white;
+    padding: 3rem;
+    max-width: 19rem;
+
+}
+
+.card {
+        color: #333;
+        
+        padding: 3.2rem 1.6rem;
+        background-color: #48cae4;
+        border-radius: 1.2rem;
+        box-shadow: 0px 4px 8px #a7a0a0c2;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+}
+.card img{
+    
+    width: 9.8rem;
+    height: 9.8rem;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.meal-time{
+    background-color: #00b4d8;
+}
+.add-detals{
+    padding: 2.4rem;
+
+}
+.menu{
+    grid-column: -3/-1;
+    background-color: rgb(180, 163, 163);
+}
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dfd0d0;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e4dede;
+  }
